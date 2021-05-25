@@ -194,23 +194,7 @@ header{
     letter-spacing: 1000px;
     z-index: 1000000;
 }
-#h:hover + .homie{
-    display: block;
-    animation: bounce_in 0.6s ease-in forwards;
-    
-}
-#a:hover + .aboutt{
-    display: block;
-    animation: bounce_in 0.6s ease-in forwards;
-}
-#s:hover + .serve{
-    display: block;
-    animation: bounce_in 0.6s ease-in forwards;
-}
-#w:hover + .workk{
-    display: block;
-    animation: bounce_in 0.6s ease-in forwards;
-}
+
 
 @keyframes bounce_in{
     0%{
@@ -278,6 +262,23 @@ header{
 
 
 @media(min-width: 600px){
+    #h:hover + .homie{
+        display: block;
+        animation: bounce_in 0.6s ease-in forwards;
+        
+    }
+    #a:hover + .aboutt{
+        display: block;
+        animation: bounce_in 0.6s ease-in forwards;
+    }
+    #s:hover + .serve{
+        display: block;
+        animation: bounce_in 0.6s ease-in forwards;
+    }
+    #w:hover + .workk{
+        display: block;
+        animation: bounce_in 0.6s ease-in forwards;
+    }
     .intro{
         display: grid;
         width: min-content;
