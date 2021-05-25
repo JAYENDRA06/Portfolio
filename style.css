@@ -451,7 +451,7 @@ header{
     color: var(--clr-accent);
     text-align: center;
     padding: 2.5em 0;
-    font-size: calc(var(--fs-h3)-8px);
+    font-size: calc((var(--fs-h3))-8px);
 
 }
 .footer__link{
